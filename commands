@@ -1,0 +1,30 @@
+few basics...
+{
+  attributes- columns of a table;
+  tupples- rows of a table;
+}
+
+abbreviations used here
+{
+  CN1,CN2,...= comma_seperated_column_names from table_name;
+  ***=not mandatory;
+  
+}
+
+//GETTING STARTED
+mysql -u root -p (enter then type password)   -- command to start mysql in terminal
+show databases;
+use database (database_name);
+show tables;
+show create table (table_name);      -- to see query used to create that table
+select * from table_name;            -- to see complete table
+select CN1,CN2,.. from table name;   -- to view specific columns
+
+//TABLE CREATION
+create table tablename{
+datatype attribute_name [column lvl constraints(if any);
+datatype attribute_name [column lvl constraints(if any);
+datatype attribute_name [column lvl constraints(if any);
+table_lvl_constraint_name CN1,CN2,..;
+(foreign keys if any);
+}
